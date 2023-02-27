@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            color: white;
+            font-family: 'Ubuntu', sans-serif;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/bg3.jpg');
+        }
+
+        .left {
+            
+            position: absolute;
+        }
+
+        .mid {
+            border: 2px solid white;
+            display: block;
+            width: 900px;
+            border-radius: 10px;
+            margin: 20px auto;
+        }
+
+        .right {
+            position: absolute;
+           
+            display: inline-block;
+            right: 137px;
+            top: 22px;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+
+        }
+
+        .navbar li a {
+            color: white;
+            padding: 25px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: wheat;
+        }
+
+        .left img {
+            width: 90px;
+            margin: -14px 79px;
+            padding: 14px 17px;
+        }
+
+        .btn {
+            height: 37px;
+            margin: 12px 10px;
+            padding: 4px 25px;
+           
+            background-color: black;
+            color: white;
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: 93px 96px;
+            padding: 43px 51px;
+            width: 33%;
+            display: inline-block;
+            border-radius: 23px;
+            font-size: 20px;
+            text-align: center;
+        }
+        h1{
+            font-size:60px;
+        }
+
+        h2{
+            font-size: 50px;
+        }
+        .para{
+            background-color: yellow;
+            color: black;
+            display: block;
+        }
+        .para2 {
+            background-color: yellow;
+            color: black;
+            display: block;
+        }
+        #log{
+            text-align: center;
+        }
+        .btn1{
+            background-color: red;
+            color: white;
+            font-weight: 200;
+        }
+        #a1{
+            color: white;
+        }
+        #a2{
+            color: blue;
+        }
+      
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- Left Box For Logo -->
+        <div class="left">
+            <img src="img/logo.jpg" alt="">
+        </div>
+        <!-- Mid Box For Navigation  -->
+        <div class="mid">
+
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+
+            </ul>
+        </div>
+        <!-- Right for Search Box -->
+        <div class="right">
+            <button class="btn">Call US</button><button class="btn">Email</button>
+        </div>
+
+
+    </header>
+
+    <div class="container">
+      <h2 id="log">Login</h2>
+      <h3>Username</h3>
+      <input type="text" id="txt1" placeholder="Type your Username">
+      <h3>Password</h3>
+      <input type="text" id="txt1" placeholder="Type your password"><br><br>
+      <input type="button" value="Login" class="btn1">
+      <input type="button" value="Register new user" class="btn1"><br><br>
+      <a href="" id="a1">Forget Password?</a>
+      <a href="" id="a2">Click Here</a>
+    </div>
+</body>
+
+</html>
